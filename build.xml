@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="OptLoopService" default="build" basedir=".">
+	<target name="clean">
+		<delete dir="org"/>
+		<delete file="org.webosinternals.optloopservice.jar"/>
+	</target>
+	<target name="build">
+		<javac 
+			classpath="serviceframework.jar:lunaservice.jar:json.jar:Utils.jar"
+			srcdir="."
+			destdir="."
+		/>
+ 	</target>
+	<target name="jar" depends="build">
+		<jar
+			destfile="org.webosinternals.optloopservice.jar"
+			basedir="."
+			includes="**/*.class"
+		/>
+    </target>
+</project>

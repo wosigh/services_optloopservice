@@ -1,7 +1,4 @@
-serviceframework.jar
-lunaservice.jar
-json.jar
-Utils.jar
+*.jar
 desktop.ini
 *.Ink
 *.kpf

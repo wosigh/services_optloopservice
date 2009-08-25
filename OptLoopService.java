@@ -84,7 +84,7 @@ public class OptLoopService extends LunaServiceThread {
 	}
 
 	/**
-	 * I need to be able to execute for loops and other bash scripting elements. This will involve knowing how to use the Runtime object runtime, which is declared as private in this file.
+	 * Needs to be able to execute for loops and other bash scripting elements. This will involve knowing how to use the Runtime object runtime, which is declared as private in this file.
 	 */
 
 	private JSONObject mount()

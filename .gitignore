@@ -1,4 +1,5 @@
-*.jar
-desktop.ini
 *.Ink
+*.jar
 *.kpf
+desktop.ini
+thumbs.db
